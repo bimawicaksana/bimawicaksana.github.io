@@ -1,7 +1,7 @@
 ## Welcome to My Professional and Academic Work Pages
 
 Hello 👋 I’m **Bima Surya**,  
-a Master's student in **International Trade, Logistic, and Global Supply Chain Management ** at **KEDGE Business School**,  
+a Master's student in **International Trade, Logistic, and Global Supply Chain Management at KEDGE Business School**,  
 focusing on **Supply Chain Risk, maritime transport, and Data analytics**.
 
 My work explores how **global Supply Chain Network**, **Maritime Industry**, and **sustainability policies** are the intersection of economy, technology/engineering. 
@@ -30,7 +30,7 @@ to improve predictive transport models under global trade policy uncertainty.
 
 ---
 
-### Verlain Business Case – Supply Chain & Market Strategy
+### Business Case – Supply Chain & Market Strategy (Verlain)
 <img src="/images/verlainsupplychain.jpg?raw=true" width="300" alt="Verlain Business Case"/>
 
 Designed a scalable D2C logistics model for a French luxury perfume brand expanding to North America,  
@@ -71,7 +71,6 @@ Here are some curated resources and personal notes I often share with peers — 
 ---
 
 ### Useful Links
-- [Prorum](https://prorum.com) — Forum for academic discussions (econ, math, stats)  
 - [Matheus Facure](https://matheusfacure.github.io/) — Excellent resources on causal inference  
 - [Tips4Economists](https://twitter.com/MasayukiKudamatsu/status/1689736764175202304) — Thread on research skills by Prof. Kudamatsu  
 - [How to Become a Pure Mathematician or Statistician](https://metacademy.org/roadmaps/rgrosse/statistics)  

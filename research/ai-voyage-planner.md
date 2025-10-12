@@ -4,13 +4,13 @@
 **Affiliation:** Summer School and Conference in HI! Paris (HEC Paris and Ecole Polythechnique Paris) as Master student of KEDGE Business School  
 ---
 <p style="text-align:center; font-size:13px; color:gray;">
-Poster presented at HI! Paris Summer School and Conference, 2025
+I have presented the case research as Poster at HI! Paris Summer School and Conference, 2025
 </p>
 ---
 
 ### Project Overview
 
-Maritime transport moves over 80% of global trade and faces rising **economic and environmental pressures**.  
+Currently, Maritime transport moves over 80% of global trade and faces rising **economic and environmental pressures** (UNCTAD 2024).  
 Fuel can account for up to **60% of voyage expenses**, while IMO 2050 targets demand at least **50% GHG reduction**.  
 
 This project explores how **AI-driven optimization models** can enhance ship voyage planning by balancing:
@@ -18,7 +18,7 @@ This project explores how **AI-driven optimization models** can enhance ship voy
 - **Safety** and operational feasibility
 - **Emission reduction** targets  
 
-The objective is to find optimal voyage performance across **economic**, **operational**, and **environmental** criteria.
+My objective is to find optimal voyage performance across **economic**, **operational**, and **environmental** criteria.
 
 ---
 
@@ -30,7 +30,7 @@ Traditional economic optimization using linear regression fails to capture **non
 - Port congestion and capacity  
 - Bunker fuel price volatility  
 
-AI and machine learning models enable **multi-objective optimization** under uncertainty — producing adaptive, data-driven strategies for sustainable voyage planning.
+Here i want to demonstrate how far AI and machine learning models enable **multi-objective optimization** under uncertainty — producing adaptive, data-driven strategies for sustainable voyage planning.
 <img src="/research/ai-voyage-planner-1.png?raw=true" alt="AI Voyage Planning fig 1" class="poster"/>
 
 ---
@@ -38,10 +38,10 @@ AI and machine learning models enable **multi-objective optimization** under unc
 ### Methodology & Data
 
 **Dataset:**  
-Synthetic dataset of **336 voyage legs**, covering:
+For this models comparison, we use sample dataset of **336 voyage legs** and **Ports performances**, covering:
 - Operational and environmental conditions  
 - Top-10 major port capacity and performance metrics  
-- Fuel consumption and voyage time indicators  
+- Fuel consumption and voyage time indicators per June 2025 
 <img src="/research/ai-voyage-planner-2.png?raw=true" alt="AI Voyage Planning fig 2" class="poster"/>
 
 
