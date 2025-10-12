@@ -12,7 +12,7 @@ My work explores how **global Supply Chain Network**, **Maritime Industry**, and
 
 To explore my work more deeply:
 
-### 🚢 AI-Driven Optimization Models for Voyage Planning
+### AI-Driven Optimization Models for Voyage Planning
 <img src="/images/ai_voyage.jpg?raw=true" width="300" alt="AI Voyage Planning"/>
 
 Built AI-based optimization algorithms to improve vessel route efficiency and reduce bunker fuel costs  
@@ -21,7 +21,7 @@ under weather uncertainty and port congestion constraints.
 
 ---
 
-### 🧭 Ongoing Research in Maritime Trade Forecasting
+### Ongoing Research in Maritime Trade Forecasting
 <img src="/images/maritime_forecast.jpg?raw=true" width="300" alt="Maritime Forecast"/>
 
 Analyzing how bilateral trade volumes and maritime transport costs interact using UNCTAD and FAO datasets  
@@ -30,7 +30,7 @@ to improve predictive transport models under global trade policy uncertainty.
 
 ---
 
-### 💡 Verlain Business Case – Supply Chain & Market Strategy
+### Verlain Business Case – Supply Chain & Market Strategy
 <img src="/images/verlainsupplychain.jpg?raw=true" width="300" alt="Verlain Business Case"/>
 
 Designed a scalable D2C logistics model for a French luxury perfume brand expanding to North America,  
@@ -44,7 +44,7 @@ integrating network design, risk management, and sustainability principles.
 To explore my work more deeply:
 ---
 
-### 📦 Hyperlocal Inventory Demand Distribution in IBP
+### Hyperlocal Inventory Demand Distribution in IBP
 <img src="/images/hyperlocal_inventory.jpg?raw=true" width="300" alt="Hyperlocal Inventory"/>
 
 Developed a dynamic inventory distribution model within Integrated Business Planning (IBP) systems  
