@@ -27,3 +27,31 @@ body {
   line-height: 1.6;
   color: #222;
 }
+/* ===== Navigation with animated underline ===== */
+nav {
+  text-align: center;
+  margin: 20px 0;
+}
+
+nav a {
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #0366d6;
+  font-weight: 500;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -3px;
+  left: 0;
+  background-color: #0366d6;
+  transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
