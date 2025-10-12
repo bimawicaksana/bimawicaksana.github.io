@@ -17,7 +17,7 @@ To explore my work more deeply:
 
 Built AI-based optimization algorithms to improve vessel route efficiency and reduce bunker fuel costs  
 under weather uncertainty and port congestion constraints.  
-[Read more →](/research/ai-voyage-planning)
+[Read more →](/research/ai-voyage-planner)
 
 ---
 
