@@ -17,10 +17,12 @@ github: bimawicaksana  # your GitHub username
 
 # Navigation links shown at the top of the page
 navigation:
+  - name: "Home"
+    link: "index"
   - name: "Projects"
-    link: "projects"     # we'll make this page next
+    link: "projects"
   - name: "Research"
-    link: "research"     # we'll make this page next
+    link: "research"
 
 # Theme settings
 markdown: kramdown
