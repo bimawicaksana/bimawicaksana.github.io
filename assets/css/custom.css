@@ -1,0 +1,29 @@
+/* ===== Custom Styles for Bima's Portfolio ===== */
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Poster-specific styling */
+.poster {
+  max-width: 90%;
+  border: 1px solid #ddd;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease;
+}
+
+.poster:hover {
+  transform: scale(1.01);
+}
+
+/* Optional: refine text layout */
+body {
+  line-height: 1.6;
+  color: #222;
+}
