@@ -5,7 +5,7 @@
 
 ---
 
-### ⚙️ Project Overview
+### Project Overview
 
 Maritime transport moves over 80% of global trade and faces rising **economic and environmental pressures**.  
 Fuel can account for up to **60% of voyage expenses**, while IMO 2050 targets demand at least **50% GHG reduction**.  
@@ -19,7 +19,7 @@ The objective is to find optimal voyage performance across **economic**, **opera
 
 ---
 
-### 🧩 Research Motivation
+### Motivation
 
 Traditional economic optimization using linear regression fails to capture **nonlinear interactions** among:
 - Operational constraints (speed, draft, schedule)  
@@ -28,44 +28,35 @@ Traditional economic optimization using linear regression fails to capture **non
 - Bunker fuel price volatility  
 
 AI and machine learning models enable **multi-objective optimization** under uncertainty — producing adaptive, data-driven strategies for sustainable voyage planning.
+<img src="/research/ai-voyage-planner-1.png?raw=true" alt="AI Voyage Planning fig 1" width="800"/>
 
 ---
 
-### 🧠 Methodology & Data
+### Methodology & Data
 
 **Dataset:**  
 Synthetic dataset of **336 voyage legs**, covering:
 - Operational and environmental conditions  
 - Top-10 major port capacity and performance metrics  
 - Fuel consumption and voyage time indicators  
+<img src="/research/ai-voyage-planner-2.png?raw=true" alt="AI Voyage Planning fig 2" width="800"/>
 
-**Model Pipeline:**
-1. Data preprocessing  
-2. Model training and tuning  
-3. Model comparison and validation  
-4. Feature importance analysis  
 
-**Models Evaluated:**
-| Model | MSE (mean) | MAE (mean) | R² (mean) | Train time (s) |
-|--------|-------------|-------------|------------|----------------|
-| Linear Regression | 1.12e+13 | 1.22e+06 | 0.917 | 0.015 |
-| Random Forest | 1.07e+13 | 1.13e+06 | 0.923 | 1.14 |
-| XGBoost | **8.58e+12** | **9.88e+05** | **0.941** | 1.42 |
-| Neural Network | 1.09e+13 | 1.28e+06 | 0.916 | 7.07 |
-
-✅ **XGBoost** achieved the best trade-off between accuracy and training speed (R² ≈ 0.94).
+### Result
+<img src="/research/ai-voyage-planner-3.png?raw=true" alt="AI Voyage Planning fig 3" width="800"/>
+**XGBoost** achieved the best trade-off between accuracy and training speed based on R2 value.
 
 ---
 
-### 🔍 Key Insights
-
+### Key Insights
+<img src="/research/ai-voyage-planner-4.png?raw=true" alt="AI Voyage Planning fig 4" width="800"/>
 - **Distance**, **cargo weight**, and **planned speed** are the most influential determinants of cost and emissions.  
 - **Tree-based models** outperform linear baselines by capturing complex relationships between voyage factors.  
 - Model rankings remained stable across runs, confirming robust, generalizable performance.  
 
 ---
 
-### 🚀 Impact & Future Directions
+### Impact & Future Directions
 
 - **Dynamic Routing Optimization:**  
   Compute energy-efficient routes in real time, adapting to weather and port congestion.  
@@ -76,13 +67,13 @@ Synthetic dataset of **336 voyage legs**, covering:
 
 ---
 
-### 🧮 Tools & Frameworks
+### Tools & Code Repository
 
 Python · pandas · scikit-learn · XGBoost · Keras/TensorFlow · Tableau  
-
+[🔗 View Code Repository](https://github.com/bimawicaksana/ship-operational-ai)
 ---
 
-### 📚 References
+### References
 
 1. Psaraftis, H. N. (2019). *Decarbonization of Maritime Transport*. Springer.  
 2. Stopford, M. (2020). *Maritime Economics* (4th ed.). Routledge.  
@@ -94,11 +85,14 @@ Python · pandas · scikit-learn · XGBoost · Keras/TensorFlow · Tableau
 
 ---
 
-### 📄 Poster & Repository
+### 📄 Poster
 
 [📘 Download Project Poster (PDF)](/pdf/Poster_final_print_A1.pdf)  
-[🔗 View Code Repository](https://github.com/bimawicaksana/ship-operational-ai)
 
+---
+<p style="text-align:center; font-size:13px; color:gray;">
+Poster presented at HI! Paris Summer School and Conference, 2025
+</p>
 ---
 
 <p style="font-size:11px; color:gray;">
