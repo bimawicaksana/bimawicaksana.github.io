@@ -1,19 +1,10 @@
-## Welcome
+## Welcome to My Professional and Academic Work Pages
 
-Hello 👋 I’m **Bima Wicaksana**,  
-a Master's student in **International Trade** at **KEDGE Business School**,  
-focusing on **maritime transport, trade forecasting, and data analytics**.
+Hello 👋 I’m **Bima Surya**,  
+a Master's student in **International Trade, Logistic, and Global Supply Chain Management ** at **KEDGE Business School**,  
+focusing on **Supply Chain Risk, maritime transport, and Data analytics**.
 
-My work explores how **global trade flows**, **transport costs**, and **sustainability policies** intersect in shaping future maritime systems. 
-
----
-
-## Professional Projects Overview
-
-To explore my work more deeply:
-
-- 🧭 [View Research Projects →](/research)  
-- ⚙️ [View Data & Logistics Projects →](/projects)
+My work explores how **global Supply Chain Network**, **Maritime Industry**, and **sustainability policies** are the intersection of economy, technology/engineering. 
 
 ---
 
@@ -21,12 +12,49 @@ To explore my work more deeply:
 
 To explore my work more deeply:
 
-- 🧭 [View Research Projects →](/research)  
-- ⚙️ [View Data & Logistics Projects →](/projects)
+### 🚢 AI-Driven Optimization Models for Voyage Planning
+<img src="/images/ai_voyage.jpg?raw=true" width="300" alt="AI Voyage Planning"/>
+
+Built AI-based optimization algorithms to improve vessel route efficiency and reduce bunker fuel costs  
+under weather uncertainty and port congestion constraints.  
+[Read more →](/research/ai-voyage-planning)
 
 ---
 
-## 📘 Guides & Learning Materials
+### 🧭 Ongoing Research in Maritime Trade Forecasting
+<img src="/images/maritime_forecast.jpg?raw=true" width="300" alt="Maritime Forecast"/>
+
+Analyzing how bilateral trade volumes and maritime transport costs interact using UNCTAD and FAO datasets  
+to improve predictive transport models under global trade policy uncertainty.  
+[Read more →](/research/maritime-trade-forecast)
+
+---
+
+### 💡 Verlain Business Case – Supply Chain & Market Strategy
+<img src="/images/verlainsupplychain.jpg?raw=true" width="300" alt="Verlain Business Case"/>
+
+Designed a scalable D2C logistics model for a French luxury perfume brand expanding to North America,  
+integrating network design, risk management, and sustainability principles.  
+[Read more →](/projects/verlainsupplychain)
+
+---
+
+## Professional Projects Overview
+
+To explore my work more deeply:
+---
+
+### 📦 Hyperlocal Inventory Demand Distribution in IBP
+<img src="/images/hyperlocal_inventory.jpg?raw=true" width="300" alt="Hyperlocal Inventory"/>
+
+Developed a dynamic inventory distribution model within Integrated Business Planning (IBP) systems  
+to optimize last-mile replenishment using predictive analytics and regional demand segmentation.  
+[Read more →](/projects/hyperlocal-inventory)
+
+
+---
+
+## 📘 Learning Materials
 
 Here are some curated resources and personal notes I often share with peers — covering economics, trade, and analytical thinking.
 
