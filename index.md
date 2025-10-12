@@ -1,61 +1,50 @@
-## Portfolio
+## Welcome
+
+Hello 👋 I’m **Bima Wicaksana**,  
+a Master's student in **International Trade** at **KEDGE Business School**,  
+focusing on **maritime transport, trade forecasting, and data analytics**.
+
+My work explores how **global trade flows**, **transport costs**, and **sustainability policies** intersect in shaping future maritime systems.  
 
 ---
 
-### 🌍 Maritime Transport & Trade Forecasting
+## 📘 Guides & Learning Materials
 
-[Maritime Trade Forecast Model](/projects/maritime-trade-forecast)
-<img src="images/dummy_thumbnail.jpg?raw=true" alt="Maritime Forecast thumbnail"/>
-
-Built a predictive model linking bilateral trade volumes with sea transport costs using Python (pandas, statsmodels).  
-Validated model accuracy with R², RMSE, and MAPE metrics using real UNCTAD datasets.
+Here are some curated resources and personal notes I often share with peers — covering economics, trade, and analytical thinking.
 
 ---
 
-[Port of Antwerp Forecast Analysis](/projects/antwerp-forecast)
-<img src="images/dummy_thumbnail.jpg?raw=true" alt="Port of Antwerp thumbnail"/>
-
-Forecasted dry bulk, liquid bulk, and container throughput for Port of Antwerp–Bruges (2024–2034).  
-Applied linear/non-linear regression with R² validation and scenario-based forecasting.
-
----
-
-### 🧠 Academic & Research Work
-
-[Master’s Thesis: Trade Flow Forecasting and Transport Costs](/research/trade-forecast)
-<img src="images/dummy_thumbnail.jpg?raw=true" alt="Thesis thumbnail"/>
-
-Investigating the relationship between global trade volumes, transport costs, and food security (FAO + UNCTAD data).  
-Focus: 2015–2021, cereal trade flows, and maritime transport efficiency.
+### Academic
+- [How to prove?](/guides/prove)
+- [Book Recommendations](/guides/books)
+- [How to learn languages?](/guides/languages)
+- [Why is this class useful?](/guides/useful)
+- [Life Lessons from Theory](/guides/theory)
+- [Documents](/guides/documents)
 
 ---
 
-[Advanced Maritime Sustainability Report](/research/maritime-sustainability)
-<img src="images/dummy_thumbnail.jpg?raw=true" alt="Maritime Sustainability thumbnail"/>
-
-Evaluating emission control areas (ECAs), alternative fuels, and market-based measures for decarbonizing maritime transport.
-
----
-
-### 📦 Supply Chain Strategy
-
-[Verlain D2C Supply Chain Strategy (North America)](/projects/verlainsupplychain)
-<img src="images/dummy_thumbnail.jpg?raw=true" alt="Verlain Supply Chain thumbnail"/>
-
-Designed a scalable direct-to-consumer logistics network for Verlain, a French perfume brand.  
-Phase 1: West Coast (Los Angeles DC) rollout → Phase 2: East Coast (New Jersey 3PL).  
-Included cost, risk, and sustainability analysis.
+### Useful Links
+- [Prorum](https://prorum.com) — Forum for academic discussions (econ, math, stats)  
+- [Matheus Facure](https://matheusfacure.github.io/) — Excellent resources on causal inference  
+- [Tips4Economists](https://twitter.com/MasayukiKudamatsu/status/1689736764175202304) — Thread on research skills by Prof. Kudamatsu  
+- [How to Become a Pure Mathematician or Statistician](https://metacademy.org/roadmaps/rgrosse/statistics)  
+- [Quantecon](https://quantecon.org) — Python & Julia for economics  
+- [Aplicar de México](https://aplicardesmexico.github.io) — Spanish academic resources  
 
 ---
 
-### 📑 Other Works
+## 🎓 Research & Projects Overview
 
-- [Food Security and Trade Integration Study](http://example.com/)
-- [Policy Evaluation Dashboard with Tableau](http://example.com/)
+To explore my work more deeply:
+
+- 🧭 [View Research Projects →](/research)  
+- ⚙️ [View Data & Logistics Projects →](/projects)
 
 ---
 
 <p style="font-size:11px">
 Page template forked from 
-<a href="https://github.com/evanca/quick-portfolio">evanca</a>
+<a href="https://github.com/evanca/quick-portfolio">evanca</a>.  
+Hosted on GitHub Pages — Theme by <a href="https://github.com/pages-themes/minimal">Minimal</a>.
 </p>
