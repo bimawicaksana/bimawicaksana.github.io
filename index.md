@@ -4,7 +4,25 @@ Hello 👋 I’m **Bima Wicaksana**,
 a Master's student in **International Trade** at **KEDGE Business School**,  
 focusing on **maritime transport, trade forecasting, and data analytics**.
 
-My work explores how **global trade flows**, **transport costs**, and **sustainability policies** intersect in shaping future maritime systems.  
+My work explores how **global trade flows**, **transport costs**, and **sustainability policies** intersect in shaping future maritime systems. 
+
+---
+
+## Professional Projects Overview
+
+To explore my work more deeply:
+
+- 🧭 [View Research Projects →](/research)  
+- ⚙️ [View Data & Logistics Projects →](/projects)
+
+---
+
+## Academic Research & Projects Overview
+
+To explore my work more deeply:
+
+- 🧭 [View Research Projects →](/research)  
+- ⚙️ [View Data & Logistics Projects →](/projects)
 
 ---
 
@@ -31,15 +49,6 @@ Here are some curated resources and personal notes I often share with peers — 
 - [How to Become a Pure Mathematician or Statistician](https://metacademy.org/roadmaps/rgrosse/statistics)  
 - [Quantecon](https://quantecon.org) — Python & Julia for economics  
 - [Aplicar de México](https://aplicardesmexico.github.io) — Spanish academic resources  
-
----
-
-## 🎓 Research & Projects Overview
-
-To explore my work more deeply:
-
-- 🧭 [View Research Projects →](/research)  
-- ⚙️ [View Data & Logistics Projects →](/projects)
 
 ---
 
