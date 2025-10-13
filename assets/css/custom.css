@@ -131,29 +131,33 @@ pre code {
 }
 /* ===== Glassmorphic Sidebar ===== */
 .wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 320px 1fr;
   gap: 40px;
+  align-items: start;
 }
 
 /* Glass sidebar for profile (left column) */
 .wrapper header {
-  flex: 0 0 280px;
-  background: rgba(255, 255, 255, 0.15); /* translucent background */
+  background: rgba(255, 255, 255, 0.15);
   border-radius: 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
-  backdrop-filter: blur(10px); /* key to glass effect */
+  backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   padding: 25px 20px;
-  border-right: 2px solid rgba(255, 255, 255, 0.2);
+  height: fit-content;
   transition: all 0.3s ease;
 }
 
 /* Optional subtle hover glow */
 .wrapper header:hover {
   box-shadow: 0 8px 40px rgba(30, 107, 214, 0.25);
+}
+/* Ensure section content doesn’t overlap */
+.wrapper section {
+  background: transparent;
+  padding-right: 10px;
 }
 
 /* Profile image tweaks */
