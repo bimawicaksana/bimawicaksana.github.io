@@ -1,34 +1,105 @@
----
-layout: default
-title: Projects
----
+# 🚀 Projects & Case Studies
 
-# 🚢 Projects
-
-Here are some of the main projects I’ve worked on — focused on trade, transport, and data analysis.
+Welcome to my professional project portfolio.  
+Each section highlights analytical, strategic, and technical projects I’ve designed.
 
 ---
 
-## 🌍 Maritime Trade Forecast Model
-**Tools:** Python, pandas, statsmodels, PostgreSQL  
-Built a predictive model analyzing the relationship between global bilateral trade volume and sea transport costs.  
-Used dummy data to test correlations and forecast accuracy (R², RMSE, MAPE).  
+<div class="project-card">
 
-🔗 [View Repository](https://github.com/bimawicaksana/maritime-forecast) *(optional)*
+## AI-Driven Optimization Models for Voyage Planning
+<img src="/images/ai-voyage-planner-thumb.png?raw=true" alt="AI Voyage Planning" class="project-thumb"/>
 
----
+**Goal:** Improve vessel route efficiency and minimize fuel costs under uncertainty.  
+**Tools:** Python, TensorFlow, and optimization under stochastic weather + congestion models.  
 
-## 📦 Verlain Supply Chain Strategy
-**Course Project – KEDGE Business School**  
-Developed a scalable logistics and market entry strategy for a French perfume brand entering North America.  
-Included network design (DCs in Los Angeles & New Jersey), risk assessment, and business plan validation.
+**Highlights:**
+- Built multi-objective AI optimization algorithm for voyage routing.  
+- Modeled bunker fuel cost reduction scenarios using Monte Carlo simulations.  
+- Evaluated performance via RMSE and scenario-based efficiency scores.
 
----
+[Read full project →](/research/ai-voyage-planner)
 
-## 📈 Port of Antwerp Forecast Analysis
-Forecasted liquid, dry bulk, and container throughput for the Port of Antwerp–Bruges.  
-Used linear and non-linear regression with R² validation, and integrated macroeconomic indicators.
+</div>
 
 ---
 
-[← Back to Home](index.md)
+<div class="project-card">
+
+## Business Case – Verlain Supply Chain & Market Strategy
+<img src="/images/verlainsupplychain-thumb.png?raw=true" alt="Verlain Business Case" class="project-thumb"/>
+
+**Goal:** Design a **scalable D2C logistics model** for a luxury perfume brand expanding to North America.  
+**Tools:** Power BI, Excel VBA, Python (forecasting), Tableau.  
+
+**Highlights:**
+- Modeled U.S.–Canada market rollout and DC network scenarios.  
+- Integrated sustainability, resilience, and risk-adjusted network design.  
+- Created end-to-end supply chain playbook validated by cost simulation.  
+
+[Read full project →](/projects/verlainsupplychain)
+
+</div>
+
+---
+
+<div class="project-card">
+
+## Hyperlocal Inventory Demand Distribution (IBP)
+<img src="/images/hyperlocal-inventory-demand-calculator-thumb.png?raw=true" alt="Hyperlocal Inventory" class="project-thumb"/>
+
+**Goal:** Optimize regional inventory placement and replenishment strategy for IBP environments.  
+**Tools:** Python, Pandas, R (forecast), and Integrated Business Planning frameworks.  
+
+**Highlights:**
+- Built predictive model for regional demand segmentation.  
+- Improved last-mile service rate using weighted forecast accuracy.  
+- Integrated KPI dashboard for ongoing replenishment review.  
+
+[Read full project →](/projects/hyperlocal-inventory)
+
+</div>
+
+---
+
+<div class="project-card">
+
+## Maritime Trade Forecasting Model
+<img src="/images/maritime_forecast.png?raw=true" alt="Maritime Forecast" class="project-thumb"/>
+
+**Goal:** Predict maritime transport cost fluctuations under varying trade policies.  
+**Tools:** R, Python (StatsModels, Prophet), UNCTAD & FAO datasets.  
+
+**Highlights:**
+- Modeled bilateral trade elasticity and transport cost sensitivity.  
+- Developed hybrid regression–ARIMAx model with strong R² validation.  
+- Supported policy insights on trade efficiency and emissions.  
+
+[Read full project →](/research/maritime-trade-forecast)
+
+</div>
+
+---
+
+<div class="project-card">
+
+## Sustainability & Emission Forecasts in Maritime Transport
+<img src="/images/sustainability-maritime-thumb.png?raw=true" alt="Sustainability in Maritime" class="project-thumb"/>
+
+**Goal:** Assess emission control and fuel transition pathways in maritime logistics.  
+**Tools:** Python, Pandas, and IMO regulatory datasets.  
+
+**Highlights:**
+- Evaluated trade-offs between alternative fuels and emission control areas.  
+- Built cost-CO₂ efficiency model across different global trade routes.  
+- Linked results to policy alignment and carbon offset implications.  
+
+[Read full project →](/research/emission-policy)
+
+</div>
+
+---
+
+<p style="text-align:center; font-size:12px; margin-top:40px;">
+💡 Each project combines **quantitative modeling**, **strategic insight**, and **data storytelling** to support better trade and logistics decisions.
+</p>
