@@ -26,87 +26,78 @@ img {
 body {
   line-height: 1.6;
   color: #222;
-}
-/* ===== Navigation with animated underline ===== */
-nav {
-  text-align: center;
-  margin: 20px 0;
+  margin: 0;
+  padding: 0;
 }
 
-nav a {
-  position: relative;
-  margin: 0 15px;
-  text-decoration: none;
-  color: #0366d6;
-  font-weight: 500;
-}
-
-nav a::after {
-  content: "";
-  position: absolute;
-  width: 0%;
-  height: 2px;
-  bottom: -3px;
-  left: 0;
-  background-color: #0366d6;
-  transition: width 0.3s ease;
-}
-
-nav a:hover::after {
-  width: 100%;
-}
-/* ====== NAVIGATION BAR STYLING ====== */
+/* ===== NAVIGATION BAR (FULL-WIDTH + STICKY) ===== */
 .navbar {
-  display: flex;
-  justify-content: center;
-  background-color: #0056b3; /* Deep blue bar */
-  padding: 12px 0;
-  border-radius: 8px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  background-color: #1e6bd6; /* Blue bar */
+  padding: 14px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
+/* Make sure navbar spans entire viewport width */
+body > .navbar {
+  margin: 0;
+  width: 100vw;
+}
+
+/* Links inside navbar */
 .navbar a {
-  color: white;
+  color: #fff;
   text-decoration: none;
   margin: 0 25px;
   font-weight: 500;
-  font-size: 18px;
-  transition: all 0.3s ease;
+  font-size: 1.1em;
   position: relative;
+  transition: all 0.3s ease;
 }
 
-/* Hover animation underline */
+/* Hover underline animation */
 .navbar a::after {
   content: "";
   position: absolute;
   width: 0;
   height: 2px;
-  display: block;
-  margin-top: 5px;
-  right: 0;
-  background: white;
-  transition: width 0.3s ease;
-  -webkit-transition: width 0.3s ease;
-}
-
-.navbar a:hover::after {
-  width: 100%;
+  bottom: -4px;
   left: 0;
-  background: white;
+  background-color: #fff;
+  transition: width 0.3s ease;
 }
 
-/* Active link styling */
-.navbar a.active {
-  font-weight: 600;
-  border-bottom: 2px solid white;
+.navbar a:hover::after,
+.navbar a.active::after {
+  width: 100%;
 }
 
-/* Optional: subtle hover brightness */
+/* Hover color effect */
 .navbar a:hover {
   color: #e6e6e6;
 }
+
+/* Active link emphasis */
+.navbar a.active {
+  font-weight: 600;
+}
+
+/* Responsive navbar for mobile */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px 0;
+  }
+  .navbar a {
+    display: inline-block;
+    margin: 6px 12px;
+    font-size: 1em;
+  }
+}
+
 /* ===== Code block styling ===== */
 pre, code {
   background-color: #f7f7f7;
@@ -127,6 +118,8 @@ pre code {
   display: block;
   box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
 }
+
+/* ===== Project thumbnails ===== */
 .project-thumb {
   width: 100%;
   max-width: 750px;
