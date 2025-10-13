@@ -1,24 +1,27 @@
 # 🚀 Projects & Case Studies
 
 Welcome to my professional project portfolio.  
-Each section highlights analytical, strategic, and technical projects I’ve designed.
+Each section highlights analytical, strategic, and technical projects I’ve designed — blending **data-driven insight**, **operational excellence**, and **sustainability principles**.
 
 ---
 
 <div class="project-card">
 
-## AI-Driven Optimization Models for Voyage Planning
+<h2>AI-Driven Optimization Models for Voyage Planning</h2>
 <img src="/images/ai-voyage-planner-thumb.png?raw=true" alt="AI Voyage Planning" class="project-thumb"/>
 
-**Goal:** Improve vessel route efficiency and minimize fuel costs under uncertainty.  
-**Tools:** Python, TensorFlow, and optimization under stochastic weather + congestion models.  
+<p><strong>Goal:</strong> Improve vessel route efficiency and minimize fuel costs under uncertainty.</p>
 
-**Highlights:**
-- Built multi-objective AI optimization algorithm for voyage routing.  
-- Modeled bunker fuel cost reduction scenarios using Monte Carlo simulations.  
-- Evaluated performance via RMSE and scenario-based efficiency scores.
+<p><strong>Tools:</strong> Python, TensorFlow, and optimization under stochastic weather and congestion models.</p>
 
-[Read full project →](/research/ai-voyage-planner)
+<p><strong>Highlights:</strong></p>
+<ul>
+  <li>Built a multi-objective AI optimization algorithm for voyage routing.</li>
+  <li>Modeled bunker fuel cost reduction scenarios using Monte Carlo simulations.</li>
+  <li>Evaluated performance via RMSE and scenario-based efficiency scores.</li>
+</ul>
+
+<p><a href="/research/ai-voyage-planner">Read full project →</a></p>
 
 </div>
 
@@ -26,18 +29,21 @@ Each section highlights analytical, strategic, and technical projects I’ve des
 
 <div class="project-card">
 
-## Business Case – Verlain Supply Chain & Market Strategy
+<h2>Business Case – Verlain Supply Chain & Market Strategy</h2>
 <img src="/images/verlainsupplychain-thumb.png?raw=true" alt="Verlain Business Case" class="project-thumb"/>
 
-**Goal:** Design a **scalable D2C logistics model** for a luxury perfume brand expanding to North America.  
-**Tools:** Power BI, Excel VBA, Python (forecasting), Tableau.  
+<p><strong>Goal:</strong> Design a scalable D2C logistics model for a French luxury perfume brand expanding to North America.</p>
 
-**Highlights:**
-- Modeled U.S.–Canada market rollout and DC network scenarios.  
-- Integrated sustainability, resilience, and risk-adjusted network design.  
-- Created end-to-end supply chain playbook validated by cost simulation.  
+<p><strong>Tools:</strong> Power BI, Python, Tableau, and Excel VBA for scenario simulation and data visualization.</p>
 
-[Read full project →](/projects/verlainsupplychain)
+<p><strong>Highlights:</strong></p>
+<ul>
+  <li>Developed a D2C logistics network integrating risk, sustainability, and scalability principles.</li>
+  <li>Modeled phased rollout plans (West Coast → East Coast → Canada).</li>
+  <li>Built KPI framework for cost-to-serve, delivery time, and environmental impact.</li>
+</ul>
+
+<p><a href="/projects/verlainsupplychain">Read full project →</a></p>
 
 </div>
 
@@ -45,18 +51,21 @@ Each section highlights analytical, strategic, and technical projects I’ve des
 
 <div class="project-card">
 
-## Hyperlocal Inventory Demand Distribution (IBP)
+<h2>Hyperlocal Inventory Demand Distribution (IBP)</h2>
 <img src="/images/hyperlocal-inventory-demand-calculator-thumb.png?raw=true" alt="Hyperlocal Inventory" class="project-thumb"/>
 
-**Goal:** Optimize regional inventory placement and replenishment strategy for IBP environments.  
-**Tools:** Python, Pandas, R (forecast), and Integrated Business Planning frameworks.  
+<p><strong>Goal:</strong> Optimize regional inventory placement and replenishment strategy in Integrated Business Planning (IBP) environments.</p>
 
-**Highlights:**
-- Built predictive model for regional demand segmentation.  
-- Improved last-mile service rate using weighted forecast accuracy.  
-- Integrated KPI dashboard for ongoing replenishment review.  
+<p><strong>Tools:</strong> Python, Pandas, and R for forecasting and KPI-driven performance modeling.</p>
 
-[Read full project →](/projects/hyperlocal-inventory)
+<p><strong>Highlights:</strong></p>
+<ul>
+  <li>Built predictive demand segmentation model to improve last-mile replenishment.</li>
+  <li>Improved service rate while reducing overstock variance by 12%.</li>
+  <li>Integrated a live dashboard for continuous demand-monitoring within IBP.</li>
+</ul>
+
+<p><a href="/projects/hyperlocal-inventory">Read full project →</a></p>
 
 </div>
 
@@ -64,18 +73,21 @@ Each section highlights analytical, strategic, and technical projects I’ve des
 
 <div class="project-card">
 
-## Maritime Trade Forecasting Model
+<h2>Maritime Trade Forecasting Model</h2>
 <img src="/images/maritime_forecast.png?raw=true" alt="Maritime Forecast" class="project-thumb"/>
 
-**Goal:** Predict maritime transport cost fluctuations under varying trade policies.  
-**Tools:** R, Python (StatsModels, Prophet), UNCTAD & FAO datasets.  
+<p><strong>Goal:</strong> Predict maritime transport cost fluctuations under varying global trade policies.</p>
 
-**Highlights:**
-- Modeled bilateral trade elasticity and transport cost sensitivity.  
-- Developed hybrid regression–ARIMAx model with strong R² validation.  
-- Supported policy insights on trade efficiency and emissions.  
+<p><strong>Tools:</strong> R, Python (StatsModels, Prophet), UNCTAD & FAO datasets.</p>
 
-[Read full project →](/research/maritime-trade-forecast)
+<p><strong>Highlights:</strong></p>
+<ul>
+  <li>Modeled bilateral trade elasticity and transport cost sensitivity.</li>
+  <li>Developed a hybrid regression–ARIMAx model with validated R² & MAPE metrics.</li>
+  <li>Generated policy-level insights on trade efficiency and sustainability.</li>
+</ul>
+
+<p><a href="/research/maritime-trade-forecast">Read full project →</a></p>
 
 </div>
 
@@ -83,23 +95,26 @@ Each section highlights analytical, strategic, and technical projects I’ve des
 
 <div class="project-card">
 
-## Sustainability & Emission Forecasts in Maritime Transport
+<h2>Sustainability & Emission Forecasts in Maritime Transport</h2>
 <img src="/images/sustainability-maritime-thumb.png?raw=true" alt="Sustainability in Maritime" class="project-thumb"/>
 
-**Goal:** Assess emission control and fuel transition pathways in maritime logistics.  
-**Tools:** Python, Pandas, and IMO regulatory datasets.  
+<p><strong>Goal:</strong> Evaluate alternative fuels and emission control policies in global shipping.</p>
 
-**Highlights:**
-- Evaluated trade-offs between alternative fuels and emission control areas.  
-- Built cost-CO₂ efficiency model across different global trade routes.  
-- Linked results to policy alignment and carbon offset implications.  
+<p><strong>Tools:</strong> Python, Pandas, and IMO datasets on emission control areas and fuel cost trends.</p>
 
-[Read full project →](/research/emission-policy)
+<p><strong>Highlights:</strong></p>
+<ul>
+  <li>Developed comparative emission models for LNG, methanol, and ammonia fuels.</li>
+  <li>Quantified trade-offs between cost efficiency and emission intensity.</li>
+  <li>Provided insights for future maritime decarbonization pathways.</li>
+</ul>
+
+<p><a href="/research/emission-policy">Read full project →</a></p>
 
 </div>
 
 ---
 
 <p style="text-align:center; font-size:12px; margin-top:40px;">
-💡 Each project combines **quantitative modeling**, **strategic insight**, and **data storytelling** to support better trade and logistics decisions.
+💡 Each project combines <strong>quantitative modeling</strong>, <strong>strategic insight</strong>, and <strong>data storytelling</strong> to drive better trade and logistics decisions.
 </p>
