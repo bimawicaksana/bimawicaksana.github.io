@@ -13,28 +13,25 @@ My work explores how **global Supply Chain Network**, **Maritime Industry**, and
 To explore my work more deeply:
 
 ### AI-Driven Optimization Models for Voyage Planning
-<img src="/images/ai_voyage.jpg?raw=true" width="300" alt="AI Voyage Planning"/>
+<img src="/images/ai-voyage-planner-thumb.png?raw=true" alt="AI Voyage Planning" class="project-thumb"/>
 
-Built AI-based optimization algorithms to improve vessel route efficiency and reduce bunker fuel costs  
-under weather uncertainty and port congestion constraints.  
+Built AI-based optimization algorithms to improve vessel route efficiency and reduce bunker fuel costs under weather uncertainty and port congestion constraints.  
 [Read more →](/research/ai-voyage-planner)
 
 ---
 
 ### Ongoing Research in Maritime Trade Forecasting
-<img src="/images/maritime_forecast.jpg?raw=true" width="300" alt="Maritime Forecast"/>
+<img src="/images/maritime_forecast.png?raw=true" alt="Maritime Forecast" class="project-thumb"/>
 
-Analyzing how bilateral trade volumes and maritime transport costs interact using UNCTAD and FAO datasets  
-to improve predictive transport models under global trade policy uncertainty.  
+Analyzing how bilateral trade volumes and maritime transport costs interact using UNCTAD and FAO datasets to improve predictive transport models under global trade policy uncertainty.  
 [Read more →](/research/maritime-trade-forecast)
 
 ---
 
 ### Business Case – Supply Chain & Market Strategy (Verlain)
-<img src="/images/verlainsupplychain.jpg?raw=true" width="300" alt="Verlain Business Case"/>
+<img src="/images/verlainsupplychain-thumb.png?raw=true" alt="Verlain Business Case" class="project-thumb"/>
 
-Designed a scalable D2C logistics model for a French luxury perfume brand expanding to North America,  
-integrating network design, risk management, and sustainability principles.  
+Designed a scalable D2C logistics model for a French luxury perfume brand expanding to North America, integrating network design, risk management, and sustainability principles.  
 [Read more →](/projects/verlainsupplychain)
 
 ---
@@ -45,10 +42,9 @@ To explore my work more deeply:
 ---
 
 ### Hyperlocal Inventory Demand Distribution in IBP
-<img src="/images/hyperlocal_inventory.jpg?raw=true" width="300" alt="Hyperlocal Inventory"/>
+<img src="/images/hyperlocal-inventory-demand-calculator-thumb.png?raw=true" alt="Hyperlocal Inventory" class="project-thumb"/>
 
-Developed a dynamic inventory distribution model within Integrated Business Planning (IBP) systems  
-to optimize last-mile replenishment using predictive analytics and regional demand segmentation.  
+Developed a dynamic inventory distribution model within Integrated Business Planning (IBP) systems to optimize last-mile replenishment using predictive analytics and regional demand segmentation.  
 [Read more →](/projects/hyperlocal-inventory)
 
 
