@@ -55,6 +55,58 @@ nav a::after {
 nav a:hover::after {
   width: 100%;
 }
+/* ====== NAVIGATION BAR STYLING ====== */
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #0056b3; /* Deep blue bar */
+  padding: 12px 0;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 25px;
+  font-weight: 500;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+/* Hover animation underline */
+.navbar a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: white;
+  transition: width 0.3s ease;
+  -webkit-transition: width 0.3s ease;
+}
+
+.navbar a:hover::after {
+  width: 100%;
+  left: 0;
+  background: white;
+}
+
+/* Active link styling */
+.navbar a.active {
+  font-weight: 600;
+  border-bottom: 2px solid white;
+}
+
+/* Optional: subtle hover brightness */
+.navbar a:hover {
+  color: #e6e6e6;
+}
 /* ===== Code block styling ===== */
 pre, code {
   background-color: #f7f7f7;

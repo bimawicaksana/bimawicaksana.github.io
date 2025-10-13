@@ -1,4 +1,4 @@
-## Welcome to My Professional and Academic Work Pages
+## Welcome to My Professional Portfolios and Blog
 
 Hello 👋 I’m **Bima Surya**, 
 a Master's student in **International Trade, Logistic, and Global Supply Chain Management at KEDGE Business School**, focusing on **Supply Chain Risk, maritime transport, and Data analytics**.
