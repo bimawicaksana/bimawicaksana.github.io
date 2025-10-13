@@ -23,35 +23,40 @@ img {
 }
 
 /* Optional: refine text layout */
+/* ===== GLOBAL LAYOUT ===== */
 body {
   background: linear-gradient(135deg, #e3f2fd 0%, #f8f9ff 100%);
   line-height: 1.6;
   color: #222;
   margin: 0;
   padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  backdrop-filter: blur(20px);
+  -webkit-font-smoothing: antialiased;
 }
 
-/* ===== NAVIGATION BAR (FULL-WIDTH + STICKY) ===== */
+/* ===== GLASS NAVIGATION BAR ===== */
 .navbar {
-  background-color: #016699; /* Blue bar */
-  padding: 14px 0;
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  padding: 12px 0;
+  margin: 20px auto;
   text-align: center;
   position: sticky;
-  top: 0;
-  width: 100%;
+  top: 10px;
+  width: 90%;
+  max-width: 1100px;
   z-index: 1000;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
 }
 
-/* Make sure navbar spans entire viewport width */
-body > .navbar {
-  margin: 0;
-  width: 100vw;
-}
-
-/* Links inside navbar */
+/* Navbar links */
 .navbar a {
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
   margin: 0 25px;
   font-weight: 500;
@@ -60,7 +65,7 @@ body > .navbar {
   transition: all 0.3s ease;
 }
 
-/* Hover underline animation */
+/* Underline animation */
 .navbar a::after {
   content: "";
   position: absolute;
@@ -68,7 +73,7 @@ body > .navbar {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #fff;
+  background-color: #ffffff;
   transition: width 0.3s ease;
 }
 
@@ -77,19 +82,19 @@ body > .navbar {
   width: 100%;
 }
 
-/* Hover color effect */
+/* Hover color */
 .navbar a:hover {
   color: #e6e6e6;
 }
 
-/* Active link emphasis */
 .navbar a.active {
   font-weight: 600;
 }
 
-/* Responsive navbar for mobile */
+/* ===== Responsive Navbar ===== */
 @media (max-width: 768px) {
   .navbar {
+    width: 95%;
     padding: 10px 0;
   }
   .navbar a {
@@ -99,70 +104,50 @@ body > .navbar {
   }
 }
 
-/* ===== Code block styling ===== */
-pre, code {
-  background-color: #f7f7f7;
-  border-radius: 6px;
-  padding: 10px;
-  font-family: "JetBrains Mono", "Courier New", monospace;
-  font-size: 14px;
-  line-height: 1.5;
-  overflow-x: auto;
-}
-
-pre {
-  border: 1px solid #ddd;
-}
-
-/* Optional: subtle shadow */
-pre code {
-  display: block;
-  box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
-}
-
-/* ===== Project thumbnails ===== */
-.project-thumb {
-  width: 100%;
-  max-width: 750px;
-  border-radius: 8px;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
-  display: block;
-  margin: 10px auto 15px;
-}
-/* ===== Glassmorphic Sidebar ===== */
+/* ===== WRAPPER LAYOUT ===== */
 .wrapper {
   display: grid;
   grid-template-columns: 320px 1fr;
   gap: 40px;
   align-items: start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  box-sizing: border-box;
 }
 
-/* Glass sidebar for profile (left column) */
+/* ===== STICKY GLASS SIDEBAR ===== */
 .wrapper header {
-  background: rgba(255, 255, 255, 0.15);
-  border-radius: 16px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  position: sticky;
+  top: 100px; /* stays below navbar */
+  align-self: start;
+
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+
   padding: 25px 20px;
   height: fit-content;
   transition: all 0.3s ease;
+  z-index: 10;
 }
 
-/* Optional subtle hover glow */
 .wrapper header:hover {
   box-shadow: 0 8px 40px rgba(30, 107, 214, 0.25);
 }
-/* Ensure section content doesn’t overlap */
-.wrapper section {
-  background: transparent;
-  padding-right: 10px;
+
+/* ===== SIDEBAR CONTENT ===== */
+.wrapper header h1 {
+  color: #1e6bd6;
+  text-align: center;
+  margin-top: 0;
 }
 
-/* Profile image tweaks */
 .wrapper header img {
-  border-radius: 10px;
+  border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
   margin: 15px 0;
   transition: transform 0.3s ease;
@@ -172,13 +157,6 @@ pre code {
   transform: scale(1.02);
 }
 
-/* Sidebar text styling */
-.wrapper header h1 {
-  color: #1e6bd6;
-  text-align: center;
-  margin-top: 0;
-}
-
 .wrapper header p {
   color: #333;
   font-size: 0.95em;
@@ -186,21 +164,59 @@ pre code {
   text-align: justify;
 }
 
-/* Vertical separation between sidebar and content */
+/* ===== MAIN CONTENT AREA ===== */
 .wrapper section {
-  flex: 1;
-  padding-left: 10px;
+  background: transparent;
+  padding: 10px 20px;
+  border-left: 2px solid rgba(255, 255, 255, 0.25);
+  box-sizing: border-box;
 }
 
-/* ===== Responsive Mobile Version ===== */
-@media (max-width: 768px) {
+/* ===== PROJECT THUMBNAILS ===== */
+.project-thumb {
+  width: 100%;
+  max-width: 750px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: block;
+  margin: 10px auto 15px;
+}
+
+/* ===== CODE BLOCKS ===== */
+pre, code {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 8px;
+  padding: 12px;
+  font-family: "JetBrains Mono", "Courier New", monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  overflow-x: auto;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+pre {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 900px) {
   .wrapper {
+    display: flex;
     flex-direction: column;
-    align-items: stretch;
+    padding: 20px;
   }
+
   .wrapper header {
-    border-right: none;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    position: static;
     width: 100%;
+    margin-bottom: 25px;
+    border-left: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.25);
+  }
+
+  .wrapper section {
+    border-left: none;
+    padding-left: 0;
   }
 }
