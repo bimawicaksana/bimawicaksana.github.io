@@ -1,10 +1,8 @@
 ## Welcome to My Professional and Academic Work Pages
 
-Hello 👋 I’m **Bima Surya**,  
-a Master's student in **International Trade, Logistic, and Global Supply Chain Management at KEDGE Business School**,  
-focusing on **Supply Chain Risk, maritime transport, and Data analytics**.
-
-My work explores how **global Supply Chain Network**, **Maritime Industry**, and **sustainability policies** are the intersection of economy, technology/engineering. 
+Hello 👋 I’m **Bima Surya**, 
+a Master's student in **International Trade, Logistic, and Global Supply Chain Management at KEDGE Business School**, focusing on **Supply Chain Risk, maritime transport, and Data analytics**.
+My work explores how **global Supply Chain Network**, **Maritime Industry**, and **sustainability policies** are the intersection of economy, technology/engineering.
 
 ---
 
@@ -50,7 +48,7 @@ Developed a dynamic inventory distribution model within Integrated Business Plan
 
 ---
 
-## 📘 Learning Materials
+## 📘 Learning & Reading Materials
 
 Here are some curated resources and personal notes I often share with peers — covering economics, trade, and analytical thinking.
 
