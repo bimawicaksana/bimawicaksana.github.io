@@ -24,6 +24,7 @@ img {
 
 /* Optional: refine text layout */
 body {
+  background: linear-gradient(135deg, #e3f2fd 0%, #f8f9ff 100%);
   line-height: 1.6;
   color: #222;
   margin: 0;
@@ -32,7 +33,7 @@ body {
 
 /* ===== NAVIGATION BAR (FULL-WIDTH + STICKY) ===== */
 .navbar {
-  background-color: #1e6bd6; /* Blue bar */
+  background-color: #016699; /* Blue bar */
   padding: 14px 0;
   text-align: center;
   position: sticky;
@@ -127,4 +128,75 @@ pre code {
   box-shadow: 0 3px 8px rgba(0,0,0,0.1);
   display: block;
   margin: 10px auto 15px;
+}
+/* ===== Glassmorphic Sidebar ===== */
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+/* Glass sidebar for profile (left column) */
+.wrapper header {
+  flex: 0 0 280px;
+  background: rgba(255, 255, 255, 0.15); /* translucent background */
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
+  backdrop-filter: blur(10px); /* key to glass effect */
+  -webkit-backdrop-filter: blur(10px);
+  padding: 25px 20px;
+  border-right: 2px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+/* Optional subtle hover glow */
+.wrapper header:hover {
+  box-shadow: 0 8px 40px rgba(30, 107, 214, 0.25);
+}
+
+/* Profile image tweaks */
+.wrapper header img {
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  margin: 15px 0;
+  transition: transform 0.3s ease;
+}
+
+.wrapper header img:hover {
+  transform: scale(1.02);
+}
+
+/* Sidebar text styling */
+.wrapper header h1 {
+  color: #1e6bd6;
+  text-align: center;
+  margin-top: 0;
+}
+
+.wrapper header p {
+  color: #333;
+  font-size: 0.95em;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+/* Vertical separation between sidebar and content */
+.wrapper section {
+  flex: 1;
+  padding-left: 10px;
+}
+
+/* ===== Responsive Mobile Version ===== */
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .wrapper header {
+    border-right: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    width: 100%;
+  }
 }
