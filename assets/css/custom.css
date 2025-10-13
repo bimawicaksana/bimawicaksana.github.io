@@ -55,3 +55,23 @@ nav a::after {
 nav a:hover::after {
   width: 100%;
 }
+/* ===== Code block styling ===== */
+pre, code {
+  background-color: #f7f7f7;
+  border-radius: 6px;
+  padding: 10px;
+  font-family: "JetBrains Mono", "Courier New", monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  overflow-x: auto;
+}
+
+pre {
+  border: 1px solid #ddd;
+}
+
+/* Optional: subtle shadow */
+pre code {
+  display: block;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
+}

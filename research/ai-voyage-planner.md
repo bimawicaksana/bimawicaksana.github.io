@@ -44,6 +44,29 @@ For this models comparison, we use sample dataset of **336 voyage legs** and **P
 - Fuel consumption and voyage time indicators per June 2025 
 <img src="/research/ai-voyage-planner-2.png?raw=true" alt="AI Voyage Planning fig 2" class="poster"/>
 
+```python
+## --- Linear Regression (MultiOutput)
+lr = Pipeline([
+    ("pre", preprocessor),
+    ("reg", MultiOutputRegressor(LinearRegression()))
+])
+results.append(evaluate_multi("Linear Regression", lr, X_train, X_test, y_train, y_test))
+
+## --- Random Forest
+rf = Pipeline([
+    ("pre", preprocessor),
+    ("reg", MultiOutputRegressor(RandomForestRegressor(n_estimators=300, random_state=42)))
+])
+results.append(evaluate_multi("Random Forest", rf, X_train, X_test, y_train, y_test))
+
+## --- XGBoost
+xgb = Pipeline([
+    ("pre", preprocessor),
+    ("reg", MultiOutputRegressor(XGBRegressor(
+        n_estimators=400, learning_rate=0.05, max_depth=6, subsample=0.8, random_state=42
+    )))
+])
+```
 
 ### Result
 <img src="/research/ai-voyage-planner-3.png?raw=true" alt="AI Voyage Planning fig 3" class="poster"/>
