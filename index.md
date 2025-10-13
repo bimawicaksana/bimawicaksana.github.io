@@ -10,19 +10,20 @@ My work explores how **global supply chain**, **industries**, and **sustainabili
 
 ## Featured Projects
 
-<div align="center">
 
 ### AI-Driven Optimization Models for Voyage Planning
+<div align="center">
 <img src="/images/ai-voyage-planner-thumb.png?raw=true" alt="AI Voyage Planning" class="project-thumb"/>
-
+</div>
 Built AI-based optimization algorithms to enhance vessel routing efficiency and reduce bunker fuel costs under uncertain weather and congestion.  
 [Read more →](/research/ai-voyage-planner)
 
 ---
 
 ### Business Case – Verlain Supply Chain & Market Strategy
+<div align="center">
 <img src="/images/verlainsupplychain-thumb.png?raw=true" alt="Verlain Business Case" class="project-thumb"/>
-
+</div>
 Designed a scalable D2C logistics network for a French luxury brand expanding into North America.  
 Integrated **risk**, **sustainability**, and **network optimization** principles.  
 [Read more →](/projects/verlainsupplychain)
@@ -30,27 +31,27 @@ Integrated **risk**, **sustainability**, and **network optimization** principles
 ---
 
 ### Hyperlocal Inventory Demand Distribution in IBP
+<div align="center">
 <img src="/images/hyperlocal-inventory-demand-calculator-thumb.png?raw=true" alt="Hyperlocal Inventory" class="project-thumb"/>
-
+</div>
 Developed a predictive demand distribution model within IBP systems to optimize **last-mile replenishment** using regional segmentation.  
 [Read more →](/projects/hyperlocal-inventory)
 
-</div>
 
 ---
 
 ## Academic & Research Work
 
-<div align="center">
 
 ### Ongoing Research in Maritime Trade Forecasting
+<div align="center">
 <img src="/images/maritime_forecast.png?raw=true" alt="Maritime Forecast" class="project-thumb"/>
-
+</div>
 Analyzing bilateral trade and maritime transport cost relationships using **UNCTAD** and **FAO** datasets.  
 Focus: predictive modeling and trade efficiency under policy uncertainty.  
 [Read more →](/research/maritime-trade-forecast)
 
-</div>
+
 
 ---
 
