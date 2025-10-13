@@ -6,7 +6,7 @@ My work explores how **global Supply Chain Network**, **Maritime Industry**, and
 
 ---
 
-## Academic Research & Projects Overview
+## Projects Overview
 
 To explore my work more deeply:
 
@@ -16,13 +16,6 @@ To explore my work more deeply:
 Built AI-based optimization algorithms to improve vessel route efficiency and reduce bunker fuel costs under weather uncertainty and port congestion constraints.  
 [Read more →](/research/ai-voyage-planner)
 
----
-
-### Ongoing Research in Maritime Trade Forecasting
-<img src="/images/maritime_forecast.png?raw=true" alt="Maritime Forecast" class="project-thumb"/>
-
-Analyzing how bilateral trade volumes and maritime transport costs interact using UNCTAD and FAO datasets to improve predictive transport models under global trade policy uncertainty.  
-[Read more →](/research/maritime-trade-forecast)
 
 ---
 
@@ -34,17 +27,25 @@ Designed a scalable D2C logistics model for a French luxury perfume brand expand
 
 ---
 
-## Professional Projects Overview
-
-To explore my work more deeply:
----
-
 ### Hyperlocal Inventory Demand Distribution in IBP
 <img src="/images/hyperlocal-inventory-demand-calculator-thumb.png?raw=true" alt="Hyperlocal Inventory" class="project-thumb"/>
 
 Developed a dynamic inventory distribution model within Integrated Business Planning (IBP) systems to optimize last-mile replenishment using predictive analytics and regional demand segmentation.  
 [Read more →](/projects/hyperlocal-inventory)
 
+---
+
+## Academic and Research Works
+
+To explore my work more deeply:
+
+---
+
+### Ongoing Research in Maritime Trade Forecasting
+<img src="/images/maritime_forecast.png?raw=true" alt="Maritime Forecast" class="project-thumb"/>
+
+Analyzing how bilateral trade volumes and maritime transport costs interact using UNCTAD and FAO datasets to improve predictive transport models under global trade policy uncertainty.  
+[Read more →](/research/maritime-trade-forecast)
 
 ---
 
