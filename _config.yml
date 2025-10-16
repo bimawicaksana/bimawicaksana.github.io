@@ -24,6 +24,8 @@ navigation:
     link: "projects"
   - name: "Research"
     link: "research"
+  - name: "my profile"
+    link: "my-profile"
 
 # Theme settings
 markdown: kramdown
