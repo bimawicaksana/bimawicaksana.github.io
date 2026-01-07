@@ -5,23 +5,23 @@ title: Research
 
 # 📚 Research
 
-I’m interested in how **international trade**, **maritime transport**, and **sustainability** intersect with data science.
+I’m interested in how **Energy*, **transport**, and **sustainability** intersect with data.
 
 ---
 
-## 🧠 Thesis – Trade Flow Forecasting and Transport Costs
+## 🧠 Commodities Trade Index and Freight Rate Forecasting
 Analyzing how bilateral trade volumes and maritime transport costs influence global trade efficiency and sustainability.  
 Using UNCTAD and FAO data (2015–2021) to model correlations with GDP, population, food production, and caloric intake.
 
 ---
 
-## 🌱 Advanced Maritime Sustainability
-Exploring alternative fuels, emission control areas (ECAs), and market-based measures (MBMs) in shipping decarbonization.  
-
+## 📊 Designing Digital-Twin for Industry Operation and Business Planning: Fast Moving Consumer Goods
+A review of how is Digital transformation with Digital-Twin shaping industry operation and business planning, Case of Fast Moving Consumer Goods.
 ---
 
-## 📊 Data-Driven Policy Evaluation
-Evaluating how global trade policies affect maritime transport cost forecasting accuracy, with focus on OECD datasets.
+## 🌱 Offshore Wind-Hydro Farm Energy Modelling
+Offshore Wind-Hydro Power plant Energy Modelling.  
+
 
 ---
 
