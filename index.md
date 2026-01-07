@@ -47,7 +47,7 @@ Integrated <strong>risk</strong>, <strong>sustainability</strong>, and <strong>n
 ## Academic & Research Work
 
 <div class="project-card">
-<h3>Ongoing Research in Maritime Trade Forecasting</h3>
+<h3>Research in Operation Optimization: Food Supply Chain Forecasting</h3>
 <div align="center">
   <img src="/images/maritime_forecast.png?raw=true" alt="Maritime Forecast" class="project-thumb"/>
 </div>
