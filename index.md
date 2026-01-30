@@ -47,13 +47,13 @@ Integrated <strong>risk</strong>, <strong>sustainability</strong>, and <strong>n
 ## Academic & Research Work
 
 <div class="project-card">
-<h3>Research in Operation Optimization: Food Supply Chain Forecasting</h3>
+<h3>master_thesis: Maritime Trade Forecasting</h3>
 <div align="center">
   <img src="/images/maritime_forecast.png?raw=true" alt="Maritime Forecast" class="project-thumb"/>
 </div>
 <p>Analyzing bilateral trade and maritime transport cost relationships using <strong>UNCTAD</strong> and <strong>FAO</strong> datasets.  
 Focus: predictive modeling and trade efficiency under policy uncertainty.</p>
-<p><a href="/research/maritime-trade-forecast">Read more →</a></p>
+<p><a href="https://bimawicaksana.github.io/master_thesis_forecast/">Read more →</a></p>
 </div>
 
 ---
